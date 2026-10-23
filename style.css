@@ -1435,9 +1435,8 @@ html {
 .creator-notice {
     display: block;
     position: fixed;
-    top: 5rem;
+    top: 0;
     left: 0;
-
     width: 100%;
     box-sizing: border-box;
     margin: 0;
