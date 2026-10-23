@@ -1408,6 +1408,6 @@ html {
 /* Hide service navigation buttons on mobile phones only */
 @media (max-width: 600px) {
     .service-navigation {
-        display: none;
+        display: none !important;;
     }
 }
