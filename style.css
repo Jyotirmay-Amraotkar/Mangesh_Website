@@ -1431,13 +1431,15 @@ html {
 
 
 
-/* Creator Advertisement */
+/* Creator Notice */
 .creator-notice {
     display: block;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+
     width: 100%;
     box-sizing: border-box;
-
     margin: 0;
     padding: 0.75rem 5%;
 
@@ -1447,8 +1449,9 @@ html {
     text-align: center;
     font-size: clamp(0.8rem, 1.5vw, 1rem);
     line-height: 1.6;
-
     overflow-wrap: break-word;
+
+    z-index: 99999;
 }
 
 .creator-notice p {
