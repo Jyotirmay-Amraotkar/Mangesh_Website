@@ -1432,10 +1432,3 @@ html {
 
 
 /*Self Advertising*/
-
-@media (max-width: 480px) {
-    .creator-notice {
-        padding: 8px 5px;
-        font-size: 11px;
-    }
-}
