@@ -1431,12 +1431,15 @@ html {
 
 
 
+
 /* Creator Notice */
 .creator-notice {
     display: block;
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 2147483647;
+
     width: 100%;
     box-sizing: border-box;
     margin: 0;
@@ -1450,27 +1453,25 @@ html {
     font-size: clamp(0.8rem, 1.5vw, 1rem);
     line-height: 1.6;
     overflow-wrap: break-word;
-
-    position: fixed;
-    z-index: 2147483647;
 }
 
 .creator-notice p {
     margin: 0;
 }
+
 .creator-notice strong {
     color: #FFFFFF;
-}
-.creator-notice strong {
     font-weight: 700;
 }
 
 .creator-notice a {
     display: inline-block;
     margin-inline-start: 0.25rem;
+
     color: #38BDF8;
     font-weight: 700;
     text-decoration: none;
+
     transition: color 0.2s ease;
 }
 
