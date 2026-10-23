@@ -36,3 +36,17 @@ if (serviceNavigation && footer) {
     checkFooter();
 
 }
+
+
+function positionCreatorNotice() {
+    const navbar = document.querySelector('.navbar');
+    const notice = document.querySelector('.creator-notice');
+
+    if (!navbar || !notice) return;
+
+    const navbarHeight = navbar.getBoundingClientRect().height;
+    notice.style.top = `${navbarHeight}px`;
+}
+
+window.addEventListener('load', positionCreatorNotice);
+window.addEventListener('resize', positionCreatorNotice);
