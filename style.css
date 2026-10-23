@@ -1432,3 +1432,45 @@ html {
 
 
 /*Self Advertising*/
+.advert {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.65rem 5%;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    font-size: clamp(0.75rem, 2vw, 1rem);
+    line-height: 1.6;
+}
+
+.advert p {
+    margin: 0;
+}
+
+.advert a {
+    color: #7dd3fc;
+    text-decoration: none;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.advert a:hover {
+    text-decoration: underline;
+}
+
+.advert a:focus-visible {
+    outline: 0.15rem solid #7dd3fc;
+    outline-offset: 0.2rem;
+}
+
+/* Smaller screens */
+@media (max-width: 35rem) {
+    .advert {
+        padding: 0.6rem 4%;
+        font-size: 0.8rem;
+    }
+
+    .advert p {
+        text-wrap: pretty;
+    }
+}
