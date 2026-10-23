@@ -1403,3 +1403,11 @@ html {
     min-width: 0;
 }
 }
+
+
+/* Hide service navigation buttons on mobile phones only */
+@media (max-width: 600px) {
+    .service-navigation {
+        display: none;
+    }
+}
