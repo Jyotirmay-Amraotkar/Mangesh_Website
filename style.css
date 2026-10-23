@@ -1435,7 +1435,7 @@ html {
 .creator-notice {
     display: block;
     position: fixed;
-    top: 0;
+    top: 5rem;
     left: 0;
 
     width: 100%;
@@ -1451,7 +1451,8 @@ html {
     line-height: 1.6;
     overflow-wrap: break-word;
 
-    z-index: 99999;
+    position: fixed;
+    z-index: 2147483647;
 }
 
 .creator-notice p {
