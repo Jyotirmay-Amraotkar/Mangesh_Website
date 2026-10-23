@@ -1428,3 +1428,32 @@ html {
         max-width: 100%;
     }
 }
+
+
+
+/*Self Advertising*/
+.creator-notice {
+    padding: 9px 12px;
+    text-align: center;
+    background: #f5f5f5;
+    color: #555;
+    font-size: 12px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.creator-notice a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.creator-notice a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .creator-notice {
+        font-size: 11px;
+        padding: 8px 5px;
+    }
+}
