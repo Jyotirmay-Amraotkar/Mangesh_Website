@@ -1434,17 +1434,7 @@ html {
 
 /* Creator Notice */
 .creator-notice {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0.75rem 5%;
-
-    background-color: #111827;
     color: #F9FAFB;
-    border-top: 1px solid #374151;
-
-    text-align: center;
     font-size: clamp(0.8rem, 1.5vw, 1rem);
     line-height: 1.6;
     overflow-wrap: break-word;
@@ -1460,13 +1450,9 @@ html {
 }
 
 .creator-notice a {
-    display: inline-block;
-    margin-inline-start: 0.25rem;
-
     color: #38BDF8;
     font-weight: 700;
     text-decoration: none;
-
     transition: color 0.2s ease;
 }
 
@@ -1483,11 +1469,6 @@ html {
 
 @media (max-width: 35rem) {
     .creator-notice {
-        padding: 0.65rem 4%;
         line-height: 1.7;
-    }
-
-    .creator-notice a {
-        margin-inline-start: 0.15rem;
     }
 }
