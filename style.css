@@ -1435,11 +1435,6 @@ html {
 /* Creator Notice */
 .creator-notice {
     display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 2147483647;
-
     width: 100%;
     box-sizing: border-box;
     margin: 0;
@@ -1447,7 +1442,7 @@ html {
 
     background-color: #111827;
     color: #F9FAFB;
-    border-bottom: 1px solid #374151;
+    border-top: 1px solid #374151;
 
     text-align: center;
     font-size: clamp(0.8rem, 1.5vw, 1rem);
